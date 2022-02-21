@@ -9,6 +9,7 @@ h2 {
   color: black;
   padding: 5px;
   border-radius: 4px;
+  transition: 1s;
 }
 
 #copy {
@@ -16,6 +17,7 @@ h2 {
   color: black;
   padding: 5px;
   border-radius: 4px;
+  transition: 1s;
 }
 
 .box {
@@ -38,4 +40,12 @@ h2 {
 
 #des {
   color: white;
+}
+
+#btn:hover {
+  background-color: tomato;
+}
+
+#copy:hover {
+  background-color: tomato;
 }
