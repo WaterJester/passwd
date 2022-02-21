@@ -1,0 +1,41 @@
+h2 {
+  color: white;
+}
+
+#btn {
+  margin: 3px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#copy {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.box {
+  margin: 8px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#passwd {
+  justify-items: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+#ordered-list {
+  color: white;
+}
+
+#des {
+  color: white;
+}
