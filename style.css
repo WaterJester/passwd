@@ -49,3 +49,23 @@ h2 {
 #copy:hover {
   background-color: tomato;
 }
+
+#credits-1 {
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+#credits-2 {
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+#credits-1:hover {
+  color: tomato;
+}
+
+#credits-2:hover {
+  color: tomato;
+}
