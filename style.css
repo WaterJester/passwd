@@ -50,11 +50,13 @@ h2 {
 #btn:hover {
   background-color: tomato;
   color: white;
+  border-color: tomato;
 }
 
 #copy:hover {
   background-color: tomato;
   color: white;
+  border-color: tomato;
 }
 
 #credits-1 {
