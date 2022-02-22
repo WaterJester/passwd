@@ -69,3 +69,11 @@ h2 {
 #credits-2:hover {
   color: tomato;
 }
+
+#credits-1::visited {
+  color: seagreen;
+}
+
+#credits-2::visited {
+  color: seagreen;
+}
