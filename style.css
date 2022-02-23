@@ -3,24 +3,36 @@ body {
   font-size: 12px;
 }
 
+:root {
+  --clr-primary-black: black;
+  --clr-primary-white: white;
+  
+  --clr-nutreal-t: tomato;
+  --clr-nutreal-s: seagreen;
+  
+  --default-width-min: 5em;
+}
+
 h2 {
-  color: white;
+  color: var(--clr-primary-white);
 }
 
 #btn {
+  width: var(--default-width-min);
+  padding-bottom: 5px;
   margin-right: 3px;
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: var(--clr-primary-white);
+  color: var(--clr-primary-black);
   padding: 5px;
   border-radius: 4px;
   transition: 1s;
 }
 
 #copy {
-  width: 5em;
-  background-color: white;
-  color: black;
+  width: var(--default-width-min);
+  background-color: var(--clr-primary-white);
+  color: var(--clr-primary-black);
   padding: 5px;
   border-radius: 4px;
   transition: 1s;
@@ -28,7 +40,7 @@ h2 {
 
 .box {
   margin: 8px;
-  background-color: black;
+  background-color: var(--clr-primary-black);
   padding: 5px;
   border-radius: 10px;
 }
@@ -36,48 +48,48 @@ h2 {
 #passwd {
   justify-items: center;
   align-items: center;
-  background-color: black;
-  color: white;
+  background-color: var(--clr-primary-black);
+  color: var(--clr-primary-white);
 }
 
 #ordered-list {
-  color: white;
+  color: var(--clr-primary-black);
 }
 
 #des {
-  color: white;
+  color: var(--clr-primary-white);
 }
 
 #btn:hover {
-  background-color: tomato;
-  color: white;
-  border-color: tomato;
+  background-color: var(--clr-nutreal-t);
+  color: var(--clr-primary-white);
+  border-color: var(--clr-nutreal-t);
 }
 
 #copy:hover {
-  background-color: tomato;
-  color: white;
-  border-color: tomato;
+  background-color: var(--clr-nutreal-t);
+  color: var(--clr-primary-white);
+  border-color: var(--clr-nutreal-t);
 }
 
 #credits-1 {
-  color: white;
+  color: var(--clr-primary-white);
   text-decoration: none;
-  transition: 1s;
 }
 
 #credits-2 {
-  color: white;
+  color: var(--clr-primary-white);
   text-decoration: none;
-  transition: 1s;
 }
 
 #credits-1:hover {
-  color: tomato;
+  color: var(--clr-nutreal-t);
+  text-decoration: none;
 }
 
 #credits-2:hover {
-  color: tomato;
+  color: var(--clr-nutreal-t);
+  text-decoration: none;
 }
 
 #credits-1:visited {
