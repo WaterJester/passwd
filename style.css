@@ -33,7 +33,6 @@ h2 {
   width: var(--default-width-min);
   padding-bottom: 5px;
   margin-right: 3px;
-  text-align: center;
   background-color: var(--clr-primary-white);
   color: var(--clr-primary-black);
   padding: 5px;
@@ -51,21 +50,27 @@ h2 {
 }
 
 .box {
+  text-align: center;
   margin: 8px;
   background-color: var(--clr-primary-black);
   padding: 5px;
   border-radius: 10px;
 }
 
-#passwd {
-  justify-items: center;
-  align-items: center;
+#passwd-box {
   background-color: var(--clr-primary-black);
   color: var(--clr-primary-white);
 }
 
+#passwd {
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
 .ordered-list {
   color: var(--clr-primary-white);
+  list-style-position: inside;
 }
 
 .updates {
