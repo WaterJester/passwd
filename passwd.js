@@ -1,14 +1,13 @@
 function randomPass(length) {
   const chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-  var str = []
+  var str = ""
   
   for(var i = 0; i < length; i++) {
     const randomChar = Math.floor(Math.random() * chars.length)
     
-    str.push(chars.charAt(randomChar))
+    str += chars.charAt(randomChar)
   }
   
-  str = str.join("")
   return str;
 }
 
